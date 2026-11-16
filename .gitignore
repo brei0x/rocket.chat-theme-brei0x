@@ -1,27 +1,12 @@
-# Managed by Composer #
-#######################
-/vendor/
-/composer.lock
-
-
-# Assets managed by yarn #
-##########################
-node_modules/
-/yarn.lock
-
-
-# OS generated files #
-######################
+# OS
 .DS_Store
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
 
-
-# Idea files #
-##############
+# IDE
 /.idea/
 /*.iml
+/.vscode/
