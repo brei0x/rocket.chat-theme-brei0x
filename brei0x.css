@@ -1,0 +1,200 @@
+/*
+ * Brei0x 2.0.0: dark graphite theme for Rocket.Chat 9.x (Fuselage color tokens).
+ * Paste into Administration > Workspace > Settings > Layout > Custom CSS. See docs/SETUP.md.
+ */
+
+/* Same selectors as the palettes Rocket.Chat injects; !important wins over every built-in theme. */
+:root,
+.rcx-content--main,
+.rcx-tile,
+.rcx-sidebar--main,
+.rcx-sidebar-rail,
+.rcx-sidepanel,
+.rcx-navbar {
+	--rcx-color-surface-room: #2a2a2a !important;
+	--rcx-color-surface-tint: #2a2a2a !important;
+	--rcx-color-surface-light: #303031 !important;
+	--rcx-color-surface-neutral: #3d3d3e !important;
+	--rcx-color-surface-disabled: #2e2e2f !important;
+	--rcx-color-surface-hover: #333334 !important;
+	--rcx-color-surface-selected: #3d3d3e !important;
+	--rcx-color-surface-dark: #dddddd !important;
+	--rcx-color-surface-featured: #9c27b0 !important;
+	--rcx-color-surface-featured-hover: #7b1f8a !important;
+	--rcx-color-surface-overlay: #000000b3 !important;
+	--rcx-color-surface-sidebar: #242425 !important;
+
+	--rcx-color-stroke-extra-light: #333334 !important;
+	--rcx-color-stroke-light: #3d3d3e !important;
+	--rcx-color-stroke-medium: #4a4a4b !important;
+	--rcx-color-stroke-dark: #888889 !important;
+	--rcx-color-stroke-extra-dark: #a0a0a0 !important;
+	--rcx-color-stroke-extra-light-highlight: #0d4987 !important;
+	--rcx-color-stroke-highlight: #13679a !important;
+	--rcx-color-stroke-extra-light-error: #5c1010 !important;
+	--rcx-color-stroke-error: #b71c1c !important;
+
+	--rcx-color-shadow-highlight: #0d4987 !important;
+	--rcx-color-shadow-danger: #5c1010 !important;
+	--rcx-color-shadow-elevation-border: #242425 !important;
+	--rcx-color-shadow-elevation-1: #00000066 !important;
+	--rcx-color-shadow-elevation-2x: #0000004d !important;
+	--rcx-color-shadow-elevation-2y: #00000080 !important;
+
+	--rcx-color-font-default: #b4b4b5 !important;
+	--rcx-color-font-titles-labels: #dddddd !important;
+	--rcx-color-font-secondary-info: #949495 !important;
+	--rcx-color-font-hint: #949495 !important;
+	--rcx-color-font-annotation: #949495 !important;
+	--rcx-color-font-disabled: #626263 !important;
+	--rcx-color-font-info: #5ba8db !important;
+	--rcx-color-font-danger: #e57373 !important;
+	--rcx-color-font-white: #2a2a2a !important;
+	--rcx-color-font-pure-black: #1e1e1f !important;
+	--rcx-color-font-pure-white: #ffffff !important;
+
+	--rcx-color-status-background-info: #0d4987 !important;
+	--rcx-color-status-background-success: #095c2c !important;
+	--rcx-color-status-background-danger: #870d0d !important;
+	--rcx-color-status-background-warning: #5c4a12 !important;
+	--rcx-color-status-background-warning-2: #3a3320 !important;
+	--rcx-color-status-background-service-1: #5c2a0b !important;
+	--rcx-color-status-background-service-2: #4a1656 !important;
+	--rcx-color-status-background-service-3: #9c27b0 !important;
+	--rcx-color-status-font-on-info: #dddddd !important;
+	--rcx-color-status-font-on-success: #dddddd !important;
+	--rcx-color-status-font-on-danger: #dddddd !important;
+	--rcx-color-status-font-on-warning: #dddddd !important;
+	--rcx-color-status-font-on-warning-2: #ffffff !important;
+	--rcx-color-status-font-on-service-1: #dddddd !important;
+	--rcx-color-status-font-on-service-2: #dddddd !important;
+	--rcx-color-status-font-on-service-3: #ffffff !important;
+
+	--rcx-color-badge-background-level-0: #3d3d3e !important;
+	--rcx-color-badge-background-level-1: #5e5e5f !important;
+	--rcx-color-badge-background-level-2: #13679a !important;
+	--rcx-color-badge-background-level-3: #bf360c !important;
+	--rcx-color-badge-background-level-4: #b71c1c !important;
+
+	--rcx-color-status-bullet-online: #2e9e5b !important;
+	--rcx-color-status-bullet-away: #c49a2c !important;
+	--rcx-color-status-bullet-busy: #c0392b !important;
+	--rcx-color-status-bullet-disabled: #bf360c !important;
+	--rcx-color-status-bullet-offline: #888889 !important;
+	--rcx-color-status-bullet-loading: #888889 !important;
+
+	--rcx-color-button-background-primary-default: #13679a !important;
+	--rcx-color-button-background-primary-hover: #10587f !important;
+	--rcx-color-button-background-primary-press: #0c4566 !important;
+	--rcx-color-button-background-primary-focus: #13679a !important;
+	--rcx-color-button-background-primary-keyfocus: #13679a !important;
+	--rcx-color-button-background-primary-disabled: #1c2e3a !important;
+	--rcx-color-button-background-secondary-default: #3d3d3e !important;
+	--rcx-color-button-background-secondary-hover: #4a4a4b !important;
+	--rcx-color-button-background-secondary-press: #565657 !important;
+	--rcx-color-button-background-secondary-focus: #3d3d3e !important;
+	--rcx-color-button-background-secondary-keyfocus: #3d3d3e !important;
+	--rcx-color-button-background-secondary-disabled: #333334 !important;
+	--rcx-color-button-background-secondary-danger-default: #3d3d3e !important;
+	--rcx-color-button-background-secondary-danger-hover: #4a4a4b !important;
+	--rcx-color-button-background-secondary-danger-press: #565657 !important;
+	--rcx-color-button-background-secondary-danger-focus: #3d3d3e !important;
+	--rcx-color-button-background-secondary-danger-keyfocus: #3d3d3e !important;
+	--rcx-color-button-background-secondary-danger-disabled: #3a2020 !important;
+	--rcx-color-button-background-danger-default: #870d0d !important;
+	--rcx-color-button-background-danger-hover: #730b0b !important;
+	--rcx-color-button-background-danger-press: #5e0909 !important;
+	--rcx-color-button-background-danger-focus: #870d0d !important;
+	--rcx-color-button-background-danger-keyfocus: #870d0d !important;
+	--rcx-color-button-background-danger-disabled: #3a1a1a !important;
+	--rcx-color-button-background-success-default: #095c2c !important;
+	--rcx-color-button-background-success-hover: #074d25 !important;
+	--rcx-color-button-background-success-press: #063f1e !important;
+	--rcx-color-button-background-success-focus: #095c2c !important;
+	--rcx-color-button-background-success-keyfocus: #095c2c !important;
+	--rcx-color-button-background-success-disabled: #1a3324 !important;
+	--rcx-color-button-font-on-primary: #ffffff !important;
+	--rcx-color-button-font-on-primary-disabled: #5e6b73 !important;
+	--rcx-color-button-font-on-secondary: #dddddd !important;
+	--rcx-color-button-font-on-secondary-disabled: #6a6a6b !important;
+	--rcx-color-button-font-on-secondary-danger: #f2a0a0 !important;
+	--rcx-color-button-font-on-secondary-danger-disabled: #6b2a2a !important;
+	--rcx-color-button-font-on-danger: #ffffff !important;
+	--rcx-color-button-font-on-danger-disabled: #6a6a6b !important;
+	--rcx-color-button-font-on-success: #ffffff !important;
+	--rcx-color-button-font-on-success-disabled: #6a6a6b !important;
+}
+
+/* Square corners, except the shapes whose meaning depends on being round. */
+*:not(.rcx-status-bullet, .rcx-radio-button__fake) {
+	border-radius: 0 !important;
+}
+
+/* Darcula syntax colors, lightened where the original failed WCAG AA on #2b2b2b. */
+.hljs {
+	background: #2b2b2b !important;
+	color: #bababa !important;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-attribute,
+.hljs-name,
+.hljs-variable,
+div.rcx-box span.hljs-name {
+	color: #d5893f !important;
+}
+
+.hljs-string,
+.hljs-addition,
+.hljs-regexp {
+	color: #7d9e6a !important;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link,
+.hljs-quote {
+	color: #7aa3c4 !important;
+}
+
+.hljs-title,
+.hljs-subst,
+.hljs-type,
+.hljs-built_in,
+.hljs-symbol,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable,
+div.rcx-box span.hljs-title,
+div.rcx-box span.hljs-title.function_ {
+	color: #e0c46c !important;
+}
+
+.hljs-code,
+.hljs-selector-class {
+	color: #a6e22e !important;
+}
+
+.hljs-params {
+	color: #b9b9b9 !important;
+}
+
+.hljs-comment,
+.hljs-meta,
+.hljs-deletion {
+	color: #949494 !important;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+	color: #a8a8a2 !important;
+}
+
+.hljs-emphasis {
+	font-style: italic !important;
+}
