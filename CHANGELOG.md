@@ -2,7 +2,7 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [2.0.1] - 2026-11-16
 
 ### Changed
 
@@ -43,7 +43,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 - First release for the legacy Rocket.Chat 0.x UI: **Layout > Colors** values and Custom CSS.
 
-[Unreleased]: https://github.com/brei0x/rocketchat-dark-theme/compare/v2.0.0...HEAD
+[2.0.1]: https://github.com/brei0x/rocketchat-dark-theme/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/brei0x/rocketchat-dark-theme/compare/v1.2.0...v2.0.0
 [1.2.0]: https://github.com/brei0x/rocketchat-dark-theme/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/brei0x/rocketchat-dark-theme/compare/v1.0.0...v1.1.0
