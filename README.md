@@ -1,5 +1,7 @@
 # Rocket.Chat Theme - Brei0x
 
+<a href="https://github.com/brei0x/rocketchat-dark-theme/releases/latest"><img src="https://img.shields.io/github/v/release/brei0x/rocketchat-dark-theme?sort=semver" alt="Latest release" /></a>
+
 Dark graphite theme for Rocket.Chat: neutral grays, a single blue accent, square corners
 and Darcula-style code blocks.
 
