@@ -22,4 +22,4 @@ apply to the iOS and Android apps, which ignore Custom CSS.
 3. Reload the page.
 
 Upgrade, removal and troubleshooting: [docs/SETUP.md](docs/SETUP.md).
-Changes between versions: [CHANGELOG.md](CHANGELOG.md).
+Changes between versions: [releases](https://github.com/brei0x/rocketchat-dark-theme/releases).
