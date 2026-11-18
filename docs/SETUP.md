@@ -55,31 +55,14 @@ that no longer exists is ignored.
 
 Clear the **Custom CSS** field, save and reload. Users get their own theme back.
 
-## Release a version
+## Releases
 
-Versions follow [SemVer](https://semver.org/): a token or selector change that needs a newer
-Rocket.Chat is a major, a new styled area a minor, a color fix a patch.
+Every pull request merged into `main` is tagged and released by `release.yml` of
+`tekalib/.workflows`. Its title sets the version ([rules](https://github.com/tekalib/.workflows/blob/main/docs/REFERENCE.md#versioning)):
 
-1. Merge the change into `main` through a pull request (squash).
-2. Set the version in the header comment of `brei0x.css` and add a dated section to `CHANGELOG.md`
-   with its compare link, in the same pull request.
-3. Tag the merge commit on `main` and publish the release with the changelog section as notes:
-
-```bash
-git switch main && git pull
-```
-
-```bash
-git tag -s v2.0.1 -m "v2.0.1"
-```
-
-```bash
-git push origin v2.0.1
-```
-
-```bash
-gh release create v2.0.1 --title "v2.0.1" --notes-file notes.md
-```
+- `feat!:` a token or selector change that needs a newer Rocket.Chat;
+- `feat:` a newly styled area;
+- `fix:` a color fix.
 
 ## Troubleshooting
 

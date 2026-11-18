@@ -1,9 +1,12 @@
 # Rocket.Chat Theme - Brei0x
 
-<a href="https://github.com/brei0x/rocketchat-dark-theme/releases/latest"><img src="https://img.shields.io/github/v/release/brei0x/rocketchat-dark-theme?sort=semver" alt="Latest release" /></a>
-
 Dark graphite theme for Rocket.Chat: neutral grays, a single blue accent, square corners
 and Darcula-style code blocks.
+
+<p align="center">
+  <a href="https://github.com/brei0x/rocketchat-dark-theme/actions/workflows/ci.yml"><img src="https://github.com/brei0x/rocketchat-dark-theme/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"></a>
+  <a href="https://github.com/brei0x/rocketchat-dark-theme/releases/latest"><img src="https://img.shields.io/github/v/release/brei0x/rocketchat-dark-theme?sort=semver" alt="Latest release"></a>
+</p>
 
 ![Rocket.Chat Theme - Brei0x](docs/screenshot.jpg "Rocket.Chat Theme - Brei0x")
 
@@ -22,4 +25,4 @@ apply to the iOS and Android apps, which ignore Custom CSS.
 3. Reload the page.
 
 Upgrade, removal and troubleshooting: [docs/SETUP.md](docs/SETUP.md).
-Changes between versions: [CHANGELOG.md](CHANGELOG.md).
+Changes between versions: [releases](https://github.com/brei0x/rocketchat-dark-theme/releases).
